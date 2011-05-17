@@ -22,6 +22,17 @@
 		52C6BDF81382D2A5007C6AC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BDF61382D2A5007C6AC6 /* InfoPlist.strings */; };
 		52C6BDFB1382D2A5007C6AC6 /* MidiNotesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BDFA1382D2A5007C6AC6 /* MidiNotesTests.h */; };
 		52C6BDFD1382D2A5007C6AC6 /* MidiNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6BDFC1382D2A5007C6AC6 /* MidiNotesTests.m */; };
+		52C6BE081382D2D9007C6AC6 /* midi.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6BE071382D2D9007C6AC6 /* midi.m */; };
+		52C6BE0A1382D2F1007C6AC6 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6BE091382D2F1007C6AC6 /* CoreMIDI.framework */; };
+		52C6BE0C1382D2F9007C6AC6 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6BE0B1382D2F9007C6AC6 /* CoreMIDI.framework */; };
+		52C6BE461382D33D007C6AC6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BE3E1382D33D007C6AC6 /* Icon-72.png */; };
+		52C6BE471382D33D007C6AC6 /* Icon-AppStore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BE3F1382D33D007C6AC6 /* Icon-AppStore.jpg */; };
+		52C6BE481382D33D007C6AC6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BE401382D33D007C6AC6 /* Icon-Small-50.png */; };
+		52C6BE491382D33D007C6AC6 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BE411382D33D007C6AC6 /* Icon-Small.png */; };
+		52C6BE4A1382D33D007C6AC6 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BE421382D33D007C6AC6 /* Icon-Small@2x.png */; };
+		52C6BE4B1382D33D007C6AC6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BE431382D33D007C6AC6 /* Icon.png */; };
+		52C6BE4C1382D33D007C6AC6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BE441382D33D007C6AC6 /* Icon@2x.png */; };
+		52C6BE4D1382D33D007C6AC6 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BE451382D33D007C6AC6 /* iTunesArtwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +46,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52C6BDC91382D2A5007C6AC6 /* MidiNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidiNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C6BDC91382D2A5007C6AC6 /* Midi Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midi Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C6BDCD1382D2A5007C6AC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52C6BDCF1382D2A5007C6AC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52C6BDD11382D2A5007C6AC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		52C6BDD51382D2A5007C6AC6 /* MidiNotes-Info.plist */ = {isa = PBXFileReference; path = "MidiNotes-Info.plist"; sourceTree = "<group>"; };
+		52C6BDD51382D2A5007C6AC6 /* MidiNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MidiNotes-Info.plist"; sourceTree = "<group>"; };
 		52C6BDD71382D2A5007C6AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		52C6BDD91382D2A5007C6AC6 /* MidiNotes-Prefix.pch */ = {isa = PBXFileReference; path = "MidiNotes-Prefix.pch"; sourceTree = "<group>"; };
+		52C6BDD91382D2A5007C6AC6 /* MidiNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MidiNotes-Prefix.pch"; sourceTree = "<group>"; };
 		52C6BDDA1382D2A5007C6AC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52C6BDDC1382D2A5007C6AC6 /* MidiNotesAppDelegate.h */ = {isa = PBXFileReference; path = MidiNotesAppDelegate.h; sourceTree = "<group>"; };
+		52C6BDDC1382D2A5007C6AC6 /* MidiNotesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidiNotesAppDelegate.h; sourceTree = "<group>"; };
 		52C6BDDD1382D2A5007C6AC6 /* MidiNotesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiNotesAppDelegate.m; sourceTree = "<group>"; };
 		52C6BDE01382D2A5007C6AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		52C6BDE21382D2A5007C6AC6 /* MidiNotesViewController.h */ = {isa = PBXFileReference; path = MidiNotesViewController.h; sourceTree = "<group>"; };
+		52C6BDE21382D2A5007C6AC6 /* MidiNotesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidiNotesViewController.h; sourceTree = "<group>"; };
 		52C6BDE31382D2A5007C6AC6 /* MidiNotesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiNotesViewController.m; sourceTree = "<group>"; };
 		52C6BDE61382D2A5007C6AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MidiNotesViewController.xib; sourceTree = "<group>"; };
 		52C6BDED1382D2A5007C6AC6 /* MidiNotesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiNotesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C6BDF51382D2A5007C6AC6 /* MidiNotesTests-Info.plist */ = {isa = PBXFileReference; path = "MidiNotesTests-Info.plist"; sourceTree = "<group>"; };
+		52C6BDF51382D2A5007C6AC6 /* MidiNotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MidiNotesTests-Info.plist"; sourceTree = "<group>"; };
 		52C6BDF71382D2A5007C6AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		52C6BDF91382D2A5007C6AC6 /* MidiNotesTests-Prefix.pch */ = {isa = PBXFileReference; path = "MidiNotesTests-Prefix.pch"; sourceTree = "<group>"; };
+		52C6BDF91382D2A5007C6AC6 /* MidiNotesTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MidiNotesTests-Prefix.pch"; sourceTree = "<group>"; };
 		52C6BDFA1382D2A5007C6AC6 /* MidiNotesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidiNotesTests.h; sourceTree = "<group>"; };
 		52C6BDFC1382D2A5007C6AC6 /* MidiNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiNotesTests.m; sourceTree = "<group>"; };
+		52C6BE061382D2D9007C6AC6 /* midi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = midi.h; sourceTree = "<group>"; };
+		52C6BE071382D2D9007C6AC6 /* midi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = midi.m; sourceTree = "<group>"; };
+		52C6BE091382D2F1007C6AC6 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		52C6BE0B1382D2F9007C6AC6 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		52C6BE3E1382D33D007C6AC6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		52C6BE3F1382D33D007C6AC6 /* Icon-AppStore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-AppStore.jpg"; sourceTree = "<group>"; };
+		52C6BE401382D33D007C6AC6 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		52C6BE411382D33D007C6AC6 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		52C6BE421382D33D007C6AC6 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		52C6BE431382D33D007C6AC6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		52C6BE441382D33D007C6AC6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		52C6BE451382D33D007C6AC6 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C6BE0A1382D2F1007C6AC6 /* CoreMIDI.framework in Frameworks */,
 				52C6BDCE1382D2A5007C6AC6 /* UIKit.framework in Frameworks */,
 				52C6BDD01382D2A5007C6AC6 /* Foundation.framework in Frameworks */,
 				52C6BDD21382D2A5007C6AC6 /* CoreGraphics.framework in Frameworks */,
@@ -72,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C6BE0C1382D2F9007C6AC6 /* CoreMIDI.framework in Frameworks */,
 				52C6BDEE1382D2A5007C6AC6 /* UIKit.framework in Frameworks */,
 				52C6BDEF1382D2A5007C6AC6 /* Foundation.framework in Frameworks */,
 				52C6BDF01382D2A5007C6AC6 /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +109,8 @@
 		52C6BDBE1382D2A5007C6AC6 = {
 			isa = PBXGroup;
 			children = (
+				52C6BE0B1382D2F9007C6AC6 /* CoreMIDI.framework */,
+				52C6BE091382D2F1007C6AC6 /* CoreMIDI.framework */,
 				52C6BDD31382D2A5007C6AC6 /* MidiNotes */,
 				52C6BDF31382D2A5007C6AC6 /* MidiNotesTests */,
 				52C6BDCC1382D2A5007C6AC6 /* Frameworks */,
@@ -94,7 +121,7 @@
 		52C6BDCA1382D2A5007C6AC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52C6BDC91382D2A5007C6AC6 /* MidiNotes.app */,
+				52C6BDC91382D2A5007C6AC6 /* Midi Notes.app */,
 				52C6BDED1382D2A5007C6AC6 /* MidiNotesTests.octest */,
 			);
 			name = Products;
@@ -119,6 +146,8 @@
 				52C6BDE21382D2A5007C6AC6 /* MidiNotesViewController.h */,
 				52C6BDE31382D2A5007C6AC6 /* MidiNotesViewController.m */,
 				52C6BDE51382D2A5007C6AC6 /* MidiNotesViewController.xib */,
+				52C6BE061382D2D9007C6AC6 /* midi.h */,
+				52C6BE071382D2D9007C6AC6 /* midi.m */,
 				52C6BDD41382D2A5007C6AC6 /* Supporting Files */,
 			);
 			path = MidiNotes;
@@ -127,6 +156,14 @@
 		52C6BDD41382D2A5007C6AC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52C6BE3E1382D33D007C6AC6 /* Icon-72.png */,
+				52C6BE3F1382D33D007C6AC6 /* Icon-AppStore.jpg */,
+				52C6BE401382D33D007C6AC6 /* Icon-Small-50.png */,
+				52C6BE411382D33D007C6AC6 /* Icon-Small.png */,
+				52C6BE421382D33D007C6AC6 /* Icon-Small@2x.png */,
+				52C6BE431382D33D007C6AC6 /* Icon.png */,
+				52C6BE441382D33D007C6AC6 /* Icon@2x.png */,
+				52C6BE451382D33D007C6AC6 /* iTunesArtwork */,
 				52C6BDD51382D2A5007C6AC6 /* MidiNotes-Info.plist */,
 				52C6BDD61382D2A5007C6AC6 /* InfoPlist.strings */,
 				52C6BDD91382D2A5007C6AC6 /* MidiNotes-Prefix.pch */,
@@ -158,9 +195,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52C6BDC81382D2A5007C6AC6 /* MidiNotes */ = {
+		52C6BDC81382D2A5007C6AC6 /* Midi Notes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52C6BE001382D2A5007C6AC6 /* Build configuration list for PBXNativeTarget "MidiNotes" */;
+			buildConfigurationList = 52C6BE001382D2A5007C6AC6 /* Build configuration list for PBXNativeTarget "Midi Notes" */;
 			buildPhases = (
 				52C6BDC51382D2A5007C6AC6 /* Sources */,
 				52C6BDC61382D2A5007C6AC6 /* Frameworks */,
@@ -170,9 +207,9 @@
 			);
 			dependencies = (
 			);
-			name = MidiNotes;
+			name = "Midi Notes";
 			productName = MidiNotes;
-			productReference = 52C6BDC91382D2A5007C6AC6 /* MidiNotes.app */;
+			productReference = 52C6BDC91382D2A5007C6AC6 /* Midi Notes.app */;
 			productType = "com.apple.product-type.application";
 		};
 		52C6BDEC1382D2A5007C6AC6 /* MidiNotesTests */ = {
@@ -211,7 +248,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52C6BDC81382D2A5007C6AC6 /* MidiNotes */,
+				52C6BDC81382D2A5007C6AC6 /* Midi Notes */,
 				52C6BDEC1382D2A5007C6AC6 /* MidiNotesTests */,
 			);
 		};
@@ -225,6 +262,14 @@
 				52C6BDD81382D2A5007C6AC6 /* InfoPlist.strings in Resources */,
 				52C6BDE11382D2A5007C6AC6 /* MainWindow.xib in Resources */,
 				52C6BDE71382D2A5007C6AC6 /* MidiNotesViewController.xib in Resources */,
+				52C6BE461382D33D007C6AC6 /* Icon-72.png in Resources */,
+				52C6BE471382D33D007C6AC6 /* Icon-AppStore.jpg in Resources */,
+				52C6BE481382D33D007C6AC6 /* Icon-Small-50.png in Resources */,
+				52C6BE491382D33D007C6AC6 /* Icon-Small.png in Resources */,
+				52C6BE4A1382D33D007C6AC6 /* Icon-Small@2x.png in Resources */,
+				52C6BE4B1382D33D007C6AC6 /* Icon.png in Resources */,
+				52C6BE4C1382D33D007C6AC6 /* Icon@2x.png in Resources */,
+				52C6BE4D1382D33D007C6AC6 /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +308,7 @@
 				52C6BDDB1382D2A5007C6AC6 /* main.m in Sources */,
 				52C6BDDE1382D2A5007C6AC6 /* MidiNotesAppDelegate.m in Sources */,
 				52C6BDE41382D2A5007C6AC6 /* MidiNotesViewController.m in Sources */,
+				52C6BE081382D2D9007C6AC6 /* midi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +325,7 @@
 /* Begin PBXTargetDependency section */
 		52C6BDF21382D2A5007C6AC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52C6BDC81382D2A5007C6AC6 /* MidiNotes */;
+			target = 52C6BDC81382D2A5007C6AC6 /* Midi Notes */;
 			targetProxy = 52C6BDF11382D2A5007C6AC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -364,6 +410,7 @@
 				GCC_PREFIX_HEADER = "MidiNotes/MidiNotes-Prefix.pch";
 				INFOPLIST_FILE = "MidiNotes/MidiNotes-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -377,6 +424,7 @@
 				GCC_PREFIX_HEADER = "MidiNotes/MidiNotes-Prefix.pch";
 				INFOPLIST_FILE = "MidiNotes/MidiNotes-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -440,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52C6BE001382D2A5007C6AC6 /* Build configuration list for PBXNativeTarget "MidiNotes" */ = {
+		52C6BE001382D2A5007C6AC6 /* Build configuration list for PBXNativeTarget "Midi Notes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C6BE011382D2A5007C6AC6 /* Debug */,
