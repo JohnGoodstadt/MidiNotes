@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C6BDCE1382D2A5007C6AC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6BDCD1382D2A5007C6AC6 /* UIKit.framework */; };
+		52C6BDD01382D2A5007C6AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6BDCF1382D2A5007C6AC6 /* Foundation.framework */; };
+		52C6BDD21382D2A5007C6AC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6BDD11382D2A5007C6AC6 /* CoreGraphics.framework */; };
+		52C6BDD81382D2A5007C6AC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BDD61382D2A5007C6AC6 /* InfoPlist.strings */; };
+		52C6BDDB1382D2A5007C6AC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6BDDA1382D2A5007C6AC6 /* main.m */; };
+		52C6BDDE1382D2A5007C6AC6 /* MidiNotesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6BDDD1382D2A5007C6AC6 /* MidiNotesAppDelegate.m */; };
+		52C6BDE11382D2A5007C6AC6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BDDF1382D2A5007C6AC6 /* MainWindow.xib */; };
+		52C6BDE41382D2A5007C6AC6 /* MidiNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6BDE31382D2A5007C6AC6 /* MidiNotesViewController.m */; };
+		52C6BDE71382D2A5007C6AC6 /* MidiNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BDE51382D2A5007C6AC6 /* MidiNotesViewController.xib */; };
+		52C6BDEE1382D2A5007C6AC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6BDCD1382D2A5007C6AC6 /* UIKit.framework */; };
+		52C6BDEF1382D2A5007C6AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6BDCF1382D2A5007C6AC6 /* Foundation.framework */; };
+		52C6BDF01382D2A5007C6AC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C6BDD11382D2A5007C6AC6 /* CoreGraphics.framework */; };
+		52C6BDF81382D2A5007C6AC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BDF61382D2A5007C6AC6 /* InfoPlist.strings */; };
+		52C6BDFB1382D2A5007C6AC6 /* MidiNotesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 52C6BDFA1382D2A5007C6AC6 /* MidiNotesTests.h */; };
+		52C6BDFD1382D2A5007C6AC6 /* MidiNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6BDFC1382D2A5007C6AC6 /* MidiNotesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52C6BDF11382D2A5007C6AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C6BDC01382D2A5007C6AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C6BDC81382D2A5007C6AC6;
+			remoteInfo = MidiNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52C6BDC91382D2A5007C6AC6 /* MidiNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidiNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C6BDCD1382D2A5007C6AC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52C6BDCF1382D2A5007C6AC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52C6BDD11382D2A5007C6AC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52C6BDD51382D2A5007C6AC6 /* MidiNotes-Info.plist */ = {isa = PBXFileReference; path = "MidiNotes-Info.plist"; sourceTree = "<group>"; };
+		52C6BDD71382D2A5007C6AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52C6BDD91382D2A5007C6AC6 /* MidiNotes-Prefix.pch */ = {isa = PBXFileReference; path = "MidiNotes-Prefix.pch"; sourceTree = "<group>"; };
+		52C6BDDA1382D2A5007C6AC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52C6BDDC1382D2A5007C6AC6 /* MidiNotesAppDelegate.h */ = {isa = PBXFileReference; path = MidiNotesAppDelegate.h; sourceTree = "<group>"; };
+		52C6BDDD1382D2A5007C6AC6 /* MidiNotesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiNotesAppDelegate.m; sourceTree = "<group>"; };
+		52C6BDE01382D2A5007C6AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		52C6BDE21382D2A5007C6AC6 /* MidiNotesViewController.h */ = {isa = PBXFileReference; path = MidiNotesViewController.h; sourceTree = "<group>"; };
+		52C6BDE31382D2A5007C6AC6 /* MidiNotesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiNotesViewController.m; sourceTree = "<group>"; };
+		52C6BDE61382D2A5007C6AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MidiNotesViewController.xib; sourceTree = "<group>"; };
+		52C6BDED1382D2A5007C6AC6 /* MidiNotesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiNotesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C6BDF51382D2A5007C6AC6 /* MidiNotesTests-Info.plist */ = {isa = PBXFileReference; path = "MidiNotesTests-Info.plist"; sourceTree = "<group>"; };
+		52C6BDF71382D2A5007C6AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52C6BDF91382D2A5007C6AC6 /* MidiNotesTests-Prefix.pch */ = {isa = PBXFileReference; path = "MidiNotesTests-Prefix.pch"; sourceTree = "<group>"; };
+		52C6BDFA1382D2A5007C6AC6 /* MidiNotesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidiNotesTests.h; sourceTree = "<group>"; };
+		52C6BDFC1382D2A5007C6AC6 /* MidiNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiNotesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C6BDC61382D2A5007C6AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6BDCE1382D2A5007C6AC6 /* UIKit.framework in Frameworks */,
+				52C6BDD01382D2A5007C6AC6 /* Foundation.framework in Frameworks */,
+				52C6BDD21382D2A5007C6AC6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C6BDE91382D2A5007C6AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6BDEE1382D2A5007C6AC6 /* UIKit.framework in Frameworks */,
+				52C6BDEF1382D2A5007C6AC6 /* Foundation.framework in Frameworks */,
+				52C6BDF01382D2A5007C6AC6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C6BDBE1382D2A5007C6AC6 = {
+			isa = PBXGroup;
+			children = (
+				52C6BDD31382D2A5007C6AC6 /* MidiNotes */,
+				52C6BDF31382D2A5007C6AC6 /* MidiNotesTests */,
+				52C6BDCC1382D2A5007C6AC6 /* Frameworks */,
+				52C6BDCA1382D2A5007C6AC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52C6BDCA1382D2A5007C6AC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C6BDC91382D2A5007C6AC6 /* MidiNotes.app */,
+				52C6BDED1382D2A5007C6AC6 /* MidiNotesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C6BDCC1382D2A5007C6AC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C6BDCD1382D2A5007C6AC6 /* UIKit.framework */,
+				52C6BDCF1382D2A5007C6AC6 /* Foundation.framework */,
+				52C6BDD11382D2A5007C6AC6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C6BDD31382D2A5007C6AC6 /* MidiNotes */ = {
+			isa = PBXGroup;
+			children = (
+				52C6BDDC1382D2A5007C6AC6 /* MidiNotesAppDelegate.h */,
+				52C6BDDD1382D2A5007C6AC6 /* MidiNotesAppDelegate.m */,
+				52C6BDDF1382D2A5007C6AC6 /* MainWindow.xib */,
+				52C6BDE21382D2A5007C6AC6 /* MidiNotesViewController.h */,
+				52C6BDE31382D2A5007C6AC6 /* MidiNotesViewController.m */,
+				52C6BDE51382D2A5007C6AC6 /* MidiNotesViewController.xib */,
+				52C6BDD41382D2A5007C6AC6 /* Supporting Files */,
+			);
+			path = MidiNotes;
+			sourceTree = "<group>";
+		};
+		52C6BDD41382D2A5007C6AC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C6BDD51382D2A5007C6AC6 /* MidiNotes-Info.plist */,
+				52C6BDD61382D2A5007C6AC6 /* InfoPlist.strings */,
+				52C6BDD91382D2A5007C6AC6 /* MidiNotes-Prefix.pch */,
+				52C6BDDA1382D2A5007C6AC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52C6BDF31382D2A5007C6AC6 /* MidiNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				52C6BDFA1382D2A5007C6AC6 /* MidiNotesTests.h */,
+				52C6BDFC1382D2A5007C6AC6 /* MidiNotesTests.m */,
+				52C6BDF41382D2A5007C6AC6 /* Supporting Files */,
+			);
+			path = MidiNotesTests;
+			sourceTree = "<group>";
+		};
+		52C6BDF41382D2A5007C6AC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C6BDF51382D2A5007C6AC6 /* MidiNotesTests-Info.plist */,
+				52C6BDF61382D2A5007C6AC6 /* InfoPlist.strings */,
+				52C6BDF91382D2A5007C6AC6 /* MidiNotesTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C6BDC81382D2A5007C6AC6 /* MidiNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C6BE001382D2A5007C6AC6 /* Build configuration list for PBXNativeTarget "MidiNotes" */;
+			buildPhases = (
+				52C6BDC51382D2A5007C6AC6 /* Sources */,
+				52C6BDC61382D2A5007C6AC6 /* Frameworks */,
+				52C6BDC71382D2A5007C6AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MidiNotes;
+			productName = MidiNotes;
+			productReference = 52C6BDC91382D2A5007C6AC6 /* MidiNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52C6BDEC1382D2A5007C6AC6 /* MidiNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C6BE031382D2A5007C6AC6 /* Build configuration list for PBXNativeTarget "MidiNotesTests" */;
+			buildPhases = (
+				52C6BDE81382D2A5007C6AC6 /* Sources */,
+				52C6BDE91382D2A5007C6AC6 /* Frameworks */,
+				52C6BDEA1382D2A5007C6AC6 /* Resources */,
+				52C6BDEB1382D2A5007C6AC6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C6BDF21382D2A5007C6AC6 /* PBXTargetDependency */,
+			);
+			name = MidiNotesTests;
+			productName = MidiNotesTests;
+			productReference = 52C6BDED1382D2A5007C6AC6 /* MidiNotesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C6BDC01382D2A5007C6AC6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 52C6BDC31382D2A5007C6AC6 /* Build configuration list for PBXProject "MidiNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52C6BDBE1382D2A5007C6AC6;
+			productRefGroup = 52C6BDCA1382D2A5007C6AC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C6BDC81382D2A5007C6AC6 /* MidiNotes */,
+				52C6BDEC1382D2A5007C6AC6 /* MidiNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C6BDC71382D2A5007C6AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6BDD81382D2A5007C6AC6 /* InfoPlist.strings in Resources */,
+				52C6BDE11382D2A5007C6AC6 /* MainWindow.xib in Resources */,
+				52C6BDE71382D2A5007C6AC6 /* MidiNotesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C6BDEA1382D2A5007C6AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6BDF81382D2A5007C6AC6 /* InfoPlist.strings in Resources */,
+				52C6BDFB1382D2A5007C6AC6 /* MidiNotesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52C6BDEB1382D2A5007C6AC6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C6BDC51382D2A5007C6AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6BDDB1382D2A5007C6AC6 /* main.m in Sources */,
+				52C6BDDE1382D2A5007C6AC6 /* MidiNotesAppDelegate.m in Sources */,
+				52C6BDE41382D2A5007C6AC6 /* MidiNotesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C6BDE81382D2A5007C6AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6BDFD1382D2A5007C6AC6 /* MidiNotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52C6BDF21382D2A5007C6AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C6BDC81382D2A5007C6AC6 /* MidiNotes */;
+			targetProxy = 52C6BDF11382D2A5007C6AC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52C6BDD61382D2A5007C6AC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C6BDD71382D2A5007C6AC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52C6BDDF1382D2A5007C6AC6 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C6BDE01382D2A5007C6AC6 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		52C6BDE51382D2A5007C6AC6 /* MidiNotesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C6BDE61382D2A5007C6AC6 /* en */,
+			);
+			name = MidiNotesViewController.xib;
+			sourceTree = "<group>";
+		};
+		52C6BDF61382D2A5007C6AC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C6BDF71382D2A5007C6AC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52C6BDFE1382D2A5007C6AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		52C6BDFF1382D2A5007C6AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		52C6BE011382D2A5007C6AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MidiNotes/MidiNotes-Prefix.pch";
+				INFOPLIST_FILE = "MidiNotes/MidiNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52C6BE021382D2A5007C6AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MidiNotes/MidiNotes-Prefix.pch";
+				INFOPLIST_FILE = "MidiNotes/MidiNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52C6BE041382D2A5007C6AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MidiNotes.app/MidiNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MidiNotesTests/MidiNotesTests-Prefix.pch";
+				INFOPLIST_FILE = "MidiNotesTests/MidiNotesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		52C6BE051382D2A5007C6AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MidiNotes.app/MidiNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MidiNotesTests/MidiNotesTests-Prefix.pch";
+				INFOPLIST_FILE = "MidiNotesTests/MidiNotesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C6BDC31382D2A5007C6AC6 /* Build configuration list for PBXProject "MidiNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6BDFE1382D2A5007C6AC6 /* Debug */,
+				52C6BDFF1382D2A5007C6AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C6BE001382D2A5007C6AC6 /* Build configuration list for PBXNativeTarget "MidiNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6BE011382D2A5007C6AC6 /* Debug */,
+				52C6BE021382D2A5007C6AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52C6BE031382D2A5007C6AC6 /* Build configuration list for PBXNativeTarget "MidiNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6BE041382D2A5007C6AC6 /* Debug */,
+				52C6BE051382D2A5007C6AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52C6BDC01382D2A5007C6AC6 /* Project object */;
+}
