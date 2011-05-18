@@ -67,50 +67,6 @@ NSString * const MidiType_toString[] = {
         status=(p->length > 0) ? p->data[0] : 0;
         data1=(p->length > 1) ? p->data[1] : 0;
         data2=(p->length > 2) ? p->data[2] : 0;
-//        
-//        /* http://www.gweep.net/~prefect/eng/reference/protocol/midispec.html */
-//
-//        UInt8 higherNibble = status >> 4;
-//        UInt8 lowerNibble = status << 4; // zero out top nibble
-//        lowerNibble = lowerNibble >> 4;  // place in lower part again with top 34 bits zrro
-//        
-//        if (status >= 0x80 && status <= 0xEF )
-//        {
-//            
-//            if (higherNibble == 0x8)
-//                statusType = kNoteOff;
-//            else if (higherNibble == 0x9)
-//            {
-//                if (data2 == 0x0)
-//                    statusType = kNoteOff;
-//                else
-//                    statusType = kNoteOn;
-//            }
-//            else if (higherNibble == 0xA)
-//                statusType = kAfterTouch;
-//            else if (higherNibble == 0xB)
-//                statusType = kControlChange;
-//            else if (higherNibble == 0xC)
-//                statusType = kProgramChange;
-//            else if (higherNibble == 0xD)
-//                statusType = kChannelPressure;
-//            else if (higherNibble == 0xE)
-//                statusType = kPitchWheel;
-//            else
-//                statusType = kUndefined;
-//            
-//            channel = lowerNibble;	// only set for this category
-//            channel++; // musicians count from 1 to 15 - not 1 to 14
-//        }
-//        else if (status == 0xFE)
-//        {
-//            NSLog(@"kActiveSensing");
-//            statusType = kActiveSensing;
-//        }else
-//        {
-//            NSLog(@"kUndefined");
-//            statusType = kUndefined;
-//        }
             
         statusTypeDescription = MidiType_toString[statusType];
         
@@ -118,12 +74,34 @@ NSString * const MidiType_toString[] = {
     }
     return self;
 }
+-(NSString *) name
+{
+    return [MidiNote noteNumberToNoteName:self.data1];
+}
+-(int) octave
+{
+    return [MidiNote noteNumberToOctave:self.data1];
+}
+-(UInt8) number
+{
+    return self.data1;
+}
+
+-(NSString *) description
+{
+    
+    NSString *m = [NSString stringWithFormat:@"%02X %02X %02X %@%i %@",self.status,self.data1,self.data2,[MidiNote noteNumberToNoteName:self.data1] ,[MidiNote noteNumberToOctave:self.data1],statusTypeDescription];
+    
+    
+    return m;
+
+}
 +(MidiType ) statusToType:(const MIDIPacket *)p
 {
     MidiType statusToReturn = kUndefined;
     
     UInt8 status=(p->length > 0) ? p->data[0] : 0;
-   
+    
     UInt8 data2=(p->length > 2) ? p->data[2] : 0;
     
     UInt8 higherNibble = status >> 4;
@@ -163,32 +141,11 @@ NSString * const MidiType_toString[] = {
     {       
         statusToReturn = kUndefined;
     }
-
+    
     return statusToReturn;
     
 }
--(NSString *) name
-{
-    return [MidiNote noteNumberToNoteName:self.data1];
-}
--(int) octave
-{
-    return [MidiNote noteNumberToOctave:self.data1];
-}
--(UInt8) number
-{
-    return self.data1;
-}
 
--(NSString *) description
-{
-    
-    NSString *m = [NSString stringWithFormat:@"%02X %02X %02X %@%i %@",self.status,self.data1,self.data2,[MidiNote noteNumberToNoteName:self.data1] ,[MidiNote noteNumberToOctave:self.data1],statusTypeDescription];
-    
-    
-    return m;
-
-}
 +(UInt8) packetToChannelNumber:(const MIDIPacket *) p
 {
     UInt8 status=(p->length > 0) ? p->data[0] : 0;
@@ -542,6 +499,7 @@ static void MIDIReadNoteProc(const MIDIPacketList *packetList, void *readProcRef
     [pool drain];
     
 }
+#pragma mark Souce and Destination
 -(NSString *)sourceDNSName
 {
     const ItemCount numberOfSources  = MIDIGetNumberOfSources();
