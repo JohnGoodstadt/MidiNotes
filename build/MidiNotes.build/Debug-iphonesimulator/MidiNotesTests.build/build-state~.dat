@@ -1,0 +1,238 @@
+TMidiNotesTests
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/Info.plist MidiNotesTests/MidiNotesTests-Info.plist
+cProcessPCH /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotesTests-Prefix-dnevfgfrmgbuouefuhqmvehgfhyy/MidiNotesTests-Prefix.pch.gch MidiNotesTests/MidiNotesTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal/i386/MidiNotesTests.o /Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests normal i386
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h
+c000000004D54DEB900000000000008A5
+t1297407673
+s2213
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c000000004D54D0CF0000000000063B70
+t1297404111
+s408432
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/CoreMIDI.h
+c000000004D54D0C5000000000000022F
+t1297404101
+s559
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/midi.h
+c000000004DD271C00000000000000C2F
+t1305637312
+s3119
+i<Foundation/Foundation.h>
+i<CoreMIDI/CoreMIDI.h>
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests-Prefix.pch
+c000000004DD29B25000000000000009F
+t1305647909
+s159
+i<UIKit/UIKit.h>
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.h
+c000000004DD29B250000000000000104
+t1305647909
+s260
+i<SenTestingKit/SenTestingKit.h>
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.m
+c000000004DD29DD60000000000000ECB
+t1305648598
+s3787
+i"MidiNotesTests.h"
+i"midi.h"
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotesTests/en.lproj/InfoPlist.strings
+c000000004DD29B25000000000000002D
+t1305647909
+s45
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest.dSYM
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/Info.plist
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests.h
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal/i386/MidiNotesTests.LinkFileList
+c000000004DD29FB00000000000000091
+t1305649072
+s145
+
+N/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal/i386/MidiNotesTests.o
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Script-52C6BDEB1382D2A5007C6AC6.sh
+c000000004DD29FB00000000000000062
+t1305649072
+s98
+
+N/var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotesTests-Prefix-dnevfgfrmgbuouefuhqmvehgfhyy/MidiNotesTests-Prefix.pch.gch
+t2
+s0
+
+NMidiNotesTests/MidiNotesTests-Info.plist
+c000000004DD29B2500000000000002C4
+t1305647909
+s708
+
+CBuild AST from /Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies59310430d782b341^11fd0630d782b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal/i386/MidiNotesTests.o /Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s327341874.472046
+e327341874.886985
+r1
+xCompileC
+xbuild/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal/i386/MidiNotesTests.o
+x/Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.m0ff07832d782b341^3011e332d782b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.m0000000000000000^2473"CompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal/i386/MidiNotesTests.o MidiNotesTests/MidiNotesTests.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/john/Documents/Production/MidiNotes    setenv LANG en_US.US-ASCII    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/MidiNotesTests-generated-files.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/MidiNotesTests-own-target-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/MidiNotesTests-all-target-headers.hmap -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/MidiNotesTests-project-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/include -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/DerivedSources/i386 -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/DerivedSources -F/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -F/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -F/DeveloperXCode4/Library/Frameworks -include /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotesTests-Prefix-dnevfgfrmgbuouefuhqmvehgfhyy/MidiNotesTests-Prefix.pch -c /Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.m -o /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal/i386/MidiNotesTests.o
+
+CCopyStringsFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/en.lproj/InfoPlist.strings MidiNotesTests/en.lproj/InfoPlist.strings
+s327341272.458892
+e327341272.462080
+r1
+xCopyStringsFile
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/en.lproj/InfoPlist.strings
+xMidiNotesTests/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy MidiNotesTests/en.lproj/InfoPlist.stringsb98e75d8d482b341^e04a76d8d482b341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotesTests/en.lproj/InfoPlist.strings0000000000000000^565"CopyStringsFile build/Debug-iphonesimulator/MidiNotesTests.octest/en.lproj/InfoPlist.strings MidiNotesTests/en.lproj/InfoPlist.strings    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/en.lproj -- MidiNotesTests/en.lproj/InfoPlist.strings
+
+CCpResource MidiNotesTests/MidiNotesTests.h build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests.h
+s327341272.459092
+e327341272.462255
+r1
+xCpResource
+xMidiNotesTests/MidiNotesTests.h
+xbuild/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests.ha29775d8d482b341^9b5676d8d482b341^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests.h0000204d2205f041^591"CpResource MidiNotesTests/MidiNotesTests.h build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests.h    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests.h /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest
+
+CGenerateDSYMFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest.dSYM /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests
+s327341272.303355
+e327341272.456882
+r1
+xGenerateDSYMFile
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest.dSYM
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Generating /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest.dSYM84b94dd8d482b341^16f674d8d482b341^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest.dSYM0000204d2205f041^577"GenerateDSYMFile build/Debug-iphonesimulator/MidiNotesTests.octest.dSYM build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/usr/bin/dsymutil /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests -o /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest.dSYM
+
+CLd /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests normal i386
+s327341874.887189
+e327341875.037637
+r0
+xLd
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests
+xnormal
+xi386
+oUndefined symbols for architecture i386:
+o  "_OBJC_CLASS_$_MidiNote", referenced from:
+o      objc-class-ref in MidiNotesTests.o
+o     (maybe you meant: _OBJC_CLASS_$_MidiNotesTests)
+old: symbol(s) not found for architecture i386
+ocollect2: ld returned 1 exit status
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTestsc630e332d782b341^e99a0933d782b341^-262"Undefined symbols for architecture i386:  "_OBJC_CLASS_$_MidiNote", referenced from:      objc-class-ref in MidiNotesTests.o     (maybe you meant: _OBJC_CLASS_$_MidiNotesTests)ld: symbol(s) not found for architecture i386collect2: ld returned 1 exit status5(21%IDEActivityLogMessage2@42""_OBJC_CLASS_$_MidiNote", referenced from:-327341875#41#45#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@34"Objc-class-ref in MidiNotesTests.o-327341875#86#41#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@47"(maybe you meant: _OBJC_CLASS_$_MidiNotesTests)-327341875#127#53#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@41"Symbol(s) not found for architecture i386-327341875#180#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@35"Collect2: ld returned 1 exit status-327341875#226#36#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--0#0#0#--1384"Ld build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests normal i386    cd /Users/john/Documents/Production/MidiNotes    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -bundle -isysroot /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -F/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -F/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -F/DeveloperXCode4/Library/Frameworks -filelist /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal/i386/MidiNotesTests.LinkFileList -mmacosx-version-min=10.6 -bundle_loader /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes -framework SenTestingKit -Xlinker -objc_abi_version -Xlinker 2 -framework CoreMIDI -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/MidiNotesTests
+
+CPhaseScriptExecution "Run Script" /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Script-52C6BDEB1382D2A5007C6AC6.sh
+s327341272.463944
+e327341272.569206
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Script-52C6BDEB1382D2A5007C6AC6.sh
+o/DeveloperXCode4/Tools/RunUnitTests:68: note: RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'bd7077d8d482b341^17b791d8d482b341^-128"/DeveloperXCode4/Tools/RunUnitTests:68: note: RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.1(21%IDEActivityLogMessage2@81"RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.-327341272#0#128#-0#-23%DVTTextDocumentLocation3@51"file://localhost/DeveloperXCode4/Tools/RunUnitTests0000000000000000^67#18446744073709551615#67#18446744073709551615#18446744073709551615#0#30"Shell Script Invocation Notice--0#0#0#--19044"PhaseScriptExecution "Run Script" build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Script-52C6BDEB1382D2A5007C6AC6.sh    cd /Users/john/Documents/Production/MidiNotes    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER john    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/john/Documents/Production/MidiNotes/build    setenv BUILD_ROOT /Users/john/Documents/Production/MidiNotes/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator    setenv BUNDLE_LOADER /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes    setenv CACHE_ROOT /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH MidiNotesTests.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /DeveloperXCode4/Applications    setenv DEVELOPER_BIN_DIR /DeveloperXCode4/usr/bin    setenv DEVELOPER_DIR /DeveloperXCode4    setenv DEVELOPER_FRAMEWORKS_DIR /DeveloperXCode4/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/DeveloperXCode4/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /DeveloperXCode4/Library    setenv DEVELOPER_SDK_DIR /DeveloperXCode4/SDKs    setenv DEVELOPER_TOOLS_DIR /DeveloperXCode4/Tools    setenv DEVELOPER_USR_DIR /DeveloperXCode4/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH MidiNotesTests.octest/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/MidiNotes.dst    setenv DWARF_DSYM_FILE_NAME MidiNotesTests.octest.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH MidiNotesTests.octest/Executables    setenv EXECUTABLE_FOLDER_PATH MidiNotesTests.octest    setenv EXECUTABLE_NAME MidiNotesTests    setenv EXECUTABLE_PATH MidiNotesTests.octest/MidiNotesTests    setenv FILE_LIST /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH MidiNotesTests.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator\" /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks /DeveloperXCode4/Library/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME MidiNotesTests.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER MidiNotesTests/MidiNotesTests-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS DEBUG    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE MidiNotesTests/MidiNotesTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH MidiNotesTests.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH MidiNotesTests.octest/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/MidiNotes.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER john    setenv INSTALL_ROOT /tmp/MidiNotes.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH MidiNotesTests.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/MidiNotesTests-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /DeveloperXCode4/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /DeveloperXCode4/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal/i386/MidiNotesTests.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH MidiNotesTests.octest/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J869    setenv MAC_OS_X_VERSION_ACTUAL 1067    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0607    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Objects-normal    setenv OBJROOT /Users/john/Documents/Production/MidiNotes/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework SenTestingKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /DeveloperXCode4/Headers /DeveloperXCode4/SDKs /DeveloperXCode4/Platforms"    setenv PBDEVELOPMENTPLIST_PATH MidiNotesTests.octest/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/PkgInfo    setenv PKGINFO_PATH MidiNotesTests.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /DeveloperXCode4/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /DeveloperXCode4/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 8F192    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 40300    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH MidiNotesTests.octest/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH MidiNotesTests.octest/PrivateHeaders    setenv PRODUCT_NAME MidiNotesTests    setenv PRODUCT_SETTINGS_PATH /Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT MidiNotes    setenv PROJECT_DERIVED_FILE_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/DerivedSources    setenv PROJECT_DIR /Users/john/Documents/Production/MidiNotes    setenv PROJECT_FILE_PATH /Users/john/Documents/Production/MidiNotes/MidiNotes.xcodeproj    setenv PROJECT_NAME MidiNotes    setenv PROJECT_TEMP_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build    setenv PUBLIC_HEADERS_FOLDER_PATH MidiNotesTests.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH MidiNotesTests.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk    setenv SDK_DIR /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk    setenv SDK_NAME iphonesimulator4.3    setenv SDK_PRODUCT_BUILD_VERSION 8F192    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH MidiNotesTests.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH MidiNotesTests.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/john/Documents/Production/MidiNotes    setenv SRCROOT /Users/john/Documents/Production/MidiNotes    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMBOL_REPOSITORY_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/SymbolRepositories    setenv SYMROOT /Users/john/Documents/Production/MidiNotes/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /DeveloperXCode4/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /DeveloperXCode4/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/DeveloperXCode4/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /DeveloperXCode4    setenv SYSTEM_DEVELOPER_DOC_DIR "/DeveloperXCode4/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/DeveloperXCode4/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/DeveloperXCode4/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/DeveloperXCode4/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/DeveloperXCode4/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /DeveloperXCode4/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/DeveloperXCode4/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/DeveloperXCode4/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /DeveloperXCode4/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /DeveloperXCode4/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME MidiNotesTests    setenv TARGET_BUILD_DIR /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator    setenv TARGET_NAME MidiNotesTests    setenv TARGET_TEMP_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build    setenv TEMP_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build    setenv TEMP_FILES_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build    setenv TEMP_FILE_DIR /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build    setenv TEMP_ROOT /Users/john/Documents/Production/MidiNotes/build    setenv TEST_AFTER_BUILD NO    setenv TEST_HOST /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MidiNotesTests.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER john    setenv USER_APPS_DIR /Users/john/Applications    setenv USER_LIBRARY_DIR /Users/john/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH MidiNotesTests.octest/version.plist    setenv VERSION_INFO_BUILDER john    setenv VERSION_INFO_FILE MidiNotesTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MidiNotesTests  PROJECT:MidiNotes-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME MidiNotesTests.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /DeveloperXCode4/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4A1006    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /DeveloperXCode4/usr/bin/yacc    /bin/sh -c /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/Script-52C6BDEB1382D2A5007C6AC6.sh
+
+CProcessInfoPlistFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/Info.plist MidiNotesTests/MidiNotesTests-Info.plist
+s327341872.032207
+e327341872.035197
+r1
+xProcessInfoPlistFile
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/Info.plist
+xMidiNotesTests/MidiNotesTests-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process MidiNotesTests/MidiNotesTests-Info.plist6a500830d782b341^8a020930d782b341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests-Info.plist0000000000000000^555"ProcessInfoPlistFile build/Debug-iphonesimulator/MidiNotesTests.octest/Info.plist MidiNotesTests/MidiNotesTests-Info.plist    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MidiNotesTests/MidiNotesTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest/Info.plist
+
+CProcessPCH /Users/john/Library/Developer/Xcode/DerivedData/MidiNotes-dhzyjcjjtfrhengkttntdtubapvt/Index/PrecompiledHeaders/MidiNotesTests-Prefix-flpdijbjnuzktrfvafwnevwtgdhd_ast/MidiNotesTests-Prefix.pch.pth MidiNotesTests/MidiNotesTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotesTests-Prefix-dnevfgfrmgbuouefuhqmvehgfhyy/MidiNotesTests-Prefix.pch.gch MidiNotesTests/MidiNotesTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s327341872.036698
+e327341874.471857
+r1
+xProcessPCH
+x/var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotesTests-Prefix-dnevfgfrmgbuouefuhqmvehgfhyy/MidiNotesTests-Prefix.pch.gch
+xMidiNotesTests/MidiNotesTests-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile MidiNotesTests/MidiNotesTests-Prefix.pched820930d782b341^b4ca7832d782b341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests-Prefix.pch0000000000000000^2427"ProcessPCH /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotesTests-Prefix-dnevfgfrmgbuouefuhqmvehgfhyy/MidiNotesTests-Prefix.pch.gch MidiNotesTests/MidiNotesTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/john/Documents/Production/MidiNotes    setenv LANG en_US.US-ASCII    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/MidiNotesTests-generated-files.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/MidiNotesTests-own-target-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/MidiNotesTests-all-target-headers.hmap -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/MidiNotesTests-project-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/include -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/DerivedSources/i386 -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotesTests.build/DerivedSources -F/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -F/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -F/DeveloperXCode4/Library/Frameworks -c /Users/john/Documents/Production/MidiNotes/MidiNotesTests/MidiNotesTests-Prefix.pch -o /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotesTests-Prefix-dnevfgfrmgbuouefuhqmvehgfhyy/MidiNotesTests-Prefix.pch.gch
+
+CTouch /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest
+s327341272.570946
+e327341272.605267
+r1
+xTouch
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octestc3f598d8d482b341^1cef9ad8d482b341^---0#0#0#--364"Touch build/Debug-iphonesimulator/MidiNotesTests.octest    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotesTests.octest
+

@@ -1,0 +1,292 @@
+TMidiNotes
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/Info.plist MidiNotes/MidiNotes-Info.plist
+cProcessPCH /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotes-Prefix-bkkegrcardejdscmjfkjdomibxwl/MidiNotes-Prefix.pch.gch MidiNotes/MidiNotes-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/main.o /Users/john/Documents/Production/MidiNotes/MidiNotes/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesViewController.o /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesAppDelegate.o /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes normal i386
+cGenerateDSYMFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app.dSYM /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes
+cCopyStringsFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/en.lproj/InfoPlist.strings MidiNotes/en.lproj/InfoPlist.strings
+cCompileXIB /Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MidiNotesViewController.xib
+cCompileXIB /Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MainWindow.xib
+cTouch /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotes-Prefix.pch
+c000000004DD29B250000000000000144
+t1305647909
+s324
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesAppDelegate.h
+c000000004DD29B2500000000000001AE
+t1305647909
+s430
+i<UIKit/UIKit.h>
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesAppDelegate.m
+c000000004DD29B250000000000000971
+t1305647909
+s2417
+i"MidiNotesAppDelegate.h"
+i"MidiNotesViewController.h"
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesViewController.h
+c000000004DD29B2500000000000000FC
+t1305647909
+s252
+i<UIKit/UIKit.h>
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesViewController.m
+c000000004DD29B2500000000000003C4
+t1305647909
+s964
+i"MidiNotesViewController.h"
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/InfoPlist.strings
+c000000004DD29B25000000000000002D
+t1305647909
+s45
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MainWindow.xib
+c000000004DD29B250000000000004D0D
+t1305647909
+s19725
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MidiNotesViewController.xib
+c000000004DD29B250000000000003EE1
+t1305647909
+s16097
+
+N/Users/john/Documents/Production/MidiNotes/MidiNotes/main.m
+c000000004DD29B25000000000000016A
+t1305647909
+s362
+i<UIKit/UIKit.h>
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app.dSYM
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/Info.plist
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/PkgInfo
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/en.lproj/MidiNotesViewController.nib
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotes.LinkFileList
+c000000004DD29B2F00000000000001A9
+t1305647919
+s425
+
+N/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesAppDelegate.o
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesViewController.o
+t2
+s0
+
+N/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotes-Prefix-bkkegrcardejdscmjfkjdomibxwl/MidiNotes-Prefix.pch.gch
+t2
+s0
+
+NMidiNotes/MidiNotes-Info.plist
+c000000004DD29B2500000000000004F4
+t1305647909
+s1268
+
+CBuild AST from /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesAppDelegate.m
+r0
+
+CBuild AST from /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesViewController.m
+r0
+
+CBuild AST from /Users/john/Documents/Production/MidiNotes/MidiNotes/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc2154cafd282b341^c3488bafd282b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesAppDelegate.o /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s327340721.127423
+e327340721.238037
+r1
+xCompileC
+xbuild/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesAppDelegate.o
+x/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesAppDelegate.m2bc320b1d282b341^e5f13cb1d282b341^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesAppDelegate.m0000000000000000^2258"CompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesAppDelegate.o MidiNotes/MidiNotesAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/john/Documents/Production/MidiNotes    setenv LANG en_US.US-ASCII    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-generated-files.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-own-target-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-all-target-headers.hmap -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-project-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/include -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/DerivedSources/i386 -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/DerivedSources -F/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -include /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotes-Prefix-bkkegrcardejdscmjfkjdomibxwl/MidiNotes-Prefix.pch -c /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesAppDelegate.m -o /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesAppDelegate.o
+
+CCompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesViewController.o /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s327340721.127424
+e327340721.205810
+r1
+xCompileC
+xbuild/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesViewController.o
+x/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesViewController.macc420b1d282b341^92af34b1d282b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesViewController.m0000000000000000^2270"CompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesViewController.o MidiNotes/MidiNotesViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/john/Documents/Production/MidiNotes    setenv LANG en_US.US-ASCII    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-generated-files.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-own-target-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-all-target-headers.hmap -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-project-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/include -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/DerivedSources/i386 -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/DerivedSources -F/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -include /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotes-Prefix-bkkegrcardejdscmjfkjdomibxwl/MidiNotes-Prefix.pch -c /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotesViewController.m -o /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotesViewController.o
+
+CCompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/main.o /Users/john/Documents/Production/MidiNotes/MidiNotes/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s327340721.127417
+e327340721.183054
+r1
+xCompileC
+xbuild/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/main.o
+x/Users/john/Documents/Production/MidiNotes/MidiNotes/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/john/Documents/Production/MidiNotes/MidiNotes/main.m50c220b1d282b341^2bdc2eb1d282b341^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotes/main.m0000000000000000^2194"CompileC build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/main.o MidiNotes/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/john/Documents/Production/MidiNotes    setenv LANG en_US.US-ASCII    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-generated-files.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-own-target-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-all-target-headers.hmap -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-project-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/include -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/DerivedSources/i386 -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/DerivedSources -F/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -include /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotes-Prefix-bkkegrcardejdscmjfkjdomibxwl/MidiNotes-Prefix.pch -c /Users/john/Documents/Production/MidiNotes/MidiNotes/main.m -o /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/main.o
+
+CCompileXIB /Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MainWindow.xib
+s327340721.376035
+e327340721.719782
+r1
+xCompileXIB
+x/Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MainWindow.xibda5960b1d282b341^c443b8b1d282b341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MainWindow.xib0000000000000000^696"CompileXIB MidiNotes/en.lproj/MainWindow.xib    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /DeveloperXCode4/usr/bin/..    /DeveloperXCode4/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/en.lproj/MainWindow.nib /Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MainWindow.xib --sdk /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MidiNotesViewController.xib
+s327340721.376038
+e327340721.499701
+r1
+xCompileXIB
+x/Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MidiNotesViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compiling /Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MidiNotesViewController.xibde5860b1d282b341^b70a92b1d282b341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MidiNotesViewController.xib0000000000000000^735"CompileXIB MidiNotes/en.lproj/MidiNotesViewController.xib    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /DeveloperXCode4/usr/bin/..    /DeveloperXCode4/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/en.lproj/MidiNotesViewController.nib /Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/MidiNotesViewController.xib --sdk /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCopyStringsFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/en.lproj/InfoPlist.strings MidiNotes/en.lproj/InfoPlist.strings
+s327340721.375748
+e327340721.378622
+r1
+xCopyStringsFile
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/en.lproj/InfoPlist.strings
+xMidiNotes/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy MidiNotes/en.lproj/InfoPlist.stringsc04060b1d282b341^c8ec60b1d282b341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotes/en.lproj/InfoPlist.strings0000000000000000^539"CopyStringsFile build/Debug-iphonesimulator/MidiNotes.app/en.lproj/InfoPlist.strings MidiNotes/en.lproj/InfoPlist.strings    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/en.lproj -- MidiNotes/en.lproj/InfoPlist.strings
+
+CGenerateDSYMFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app.dSYM /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes
+s327340721.322797
+e327340721.374177
+r1
+xGenerateDSYMFile
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app.dSYM
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generating /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app.dSYMd9b452b1d282b341^58c95fb1d282b341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app.dSYM0000204d2205f041^535"GenerateDSYMFile build/Debug-iphonesimulator/MidiNotes.app.dSYM build/Debug-iphonesimulator/MidiNotes.app/MidiNotes    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/usr/bin/dsymutil /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes -o /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app.dSYM
+
+CLd /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes normal i386
+s327340721.238265
+e327340721.322510
+r1
+xLd
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Link /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotesc2183db1d282b341^b08f52b1d282b341^---0#0#0#--1026"Ld build/Debug-iphonesimulator/MidiNotes.app/MidiNotes normal i386    cd /Users/john/Documents/Production/MidiNotes    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -F/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -filelist /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/Objects-normal/i386/MidiNotes.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/MidiNotes
+
+CProcessInfoPlistFile /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/Info.plist MidiNotes/MidiNotes-Info.plist
+s327340719.549098
+e327340719.559874
+r1
+xProcessInfoPlistFile
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/Info.plist
+xMidiNotes/MidiNotes-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process MidiNotes/MidiNotes-Info.plist27a18cafd282b341^0d538fafd282b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotes-Info.plist0000000000000000^624"ProcessInfoPlistFile build/Debug-iphonesimulator/MidiNotes.app/Info.plist MidiNotes/MidiNotes-Info.plist    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MidiNotes/MidiNotes-Info.plist -genpkginfo /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app/Info.plist
+
+CProcessPCH /Users/john/Library/Developer/Xcode/DerivedData/MidiNotes-dhzyjcjjtfrhengkttntdtubapvt/Index/PrecompiledHeaders/MidiNotes-Prefix-aigqiikwxchasdbbukjgkwsrtjsp_ast/MidiNotes-Prefix.pch.pth MidiNotes/MidiNotes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotes-Prefix-bkkegrcardejdscmjfkjdomibxwl/MidiNotes-Prefix.pch.gch MidiNotes/MidiNotes-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s327340719.561317
+e327340721.126931
+r1
+xProcessPCH
+x/var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotes-Prefix-bkkegrcardejdscmjfkjdomibxwl/MidiNotes-Prefix.pch.gch
+xMidiNotes/MidiNotes-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile MidiNotes/MidiNotes-Prefix.pch7ec88fafd282b341^d97820b1d282b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotes-Prefix.pch0000000000000000^2178"ProcessPCH /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotes-Prefix-bkkegrcardejdscmjfkjdomibxwl/MidiNotes-Prefix.pch.gch MidiNotes/MidiNotes-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/john/Documents/Production/MidiNotes    setenv LANG en_US.US-ASCII    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-generated-files.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-own-target-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-all-target-headers.hmap -iquote /Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/MidiNotes-project-headers.hmap -I/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/include -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/DerivedSources/i386 -I/Users/john/Documents/Production/MidiNotes/build/MidiNotes.build/Debug-iphonesimulator/MidiNotes.build/DerivedSources -F/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator -c /Users/john/Documents/Production/MidiNotes/MidiNotes/MidiNotes-Prefix.pch -o /var/folders/jZ/jZuZUME3EOu8E6qzzOW3S++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MidiNotes-Prefix-bkkegrcardejdscmjfkjdomibxwl/MidiNotes-Prefix.pch.gch
+
+CTouch /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app
+s327340721.722036
+e327340721.728922
+r1
+xTouch
+x/Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.appffebb8b1d282b341^f69abab1d282b341^---0#0#0#--348"Touch build/Debug-iphonesimulator/MidiNotes.app    cd /Users/john/Documents/Production/MidiNotes    setenv PATH "/DeveloperXCode4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperXCode4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/john/Documents/Production/MidiNotes/build/Debug-iphonesimulator/MidiNotes.app
+

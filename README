@@ -1,0 +1,113 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red203\green217\blue223;\red83\green83\blue83;}
+\margl1440\margr1440\vieww18180\viewh21640\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\b\fs40 \cf0 Midi Notes Lite
+\fs28 \
+\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trmarl640 \tamarb640 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat1 \clwWidth2900\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrnil \clpadt140 \clpadl140 \clpadb140 \clpadr140 \gaph\cellx4320
+\clvertalt \clcbpat1 \clwWidth11960\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrnil \clpadt140 \clpadl140 \clpadb140 \clpadr140 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\ql\qnatural
+
+\f1\fs24 \cf0 Last Revision:
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\ql\qnatural
+\cf0 Version 1.0, 2011-05-17\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trmarl640 \tamarb640 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat1 \clwWidth2900\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrnil \clpadt140 \clpadl140 \clpadb140 \clpadr140 \gaph\cellx4320
+\clvertalt \clcbpat1 \clwWidth11960\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrnil \clpadt140 \clpadl140 \clpadb140 \clpadr140 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\ql\qnatural
+
+\b \cf0 Build Requirements:
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\ql\qnatural
+\cf0 iOS SDK 4.2 - Universal App\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trmarl640 \tamarb640 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat1 \clwWidth2900\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrnil \clpadt140 \clpadl140 \clpadb140 \clpadr140 \gaph\cellx4320
+\clvertalt \clcbpat1 \clwWidth11960\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrnil \clpadt140 \clpadl140 \clpadb140 \clpadr140 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\ql\qnatural
+
+\b \cf0 Runtime Requirements:
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\ql\qnatural
+\cf0 iOS 4.2 or later - requires coreMidi framework\cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\b\fs28 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\b0\fs26 \cf0 This sample application demonstrates how to receive and send midi messages to/from the coreMidi framework included in IOS from 4.2. Interface is a UITableView to log all notes captured. Click on UITableCell to send the note out.\
+\
+\pard\pardeftab720\sl260\ql\qnatural
+
+\f2\fs24 \cf3 ================================================================================\
+Instructions:\
+\
+open MidiNotesLite.xcodeproj and run.\
+\
+================================================================================
+\f0\fs26 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \
+\pard\pardeftab720\sl260\ql\qnatural
+
+\f2\fs24 \cf3 Apple Mac OSX Simulator (iPhone or iPad)\
+\
+1. Open Audio Midi Setup on OSX. Make sure MIDI window is checked (Window Menu->Show MIDI Window\
+2. Double click on Network (in MIDI Studio)\
+3. If Session box is empty click + and create a session - default is Session1\
+4. Run the xcode project and "iPhone Simulator" should appear in the Directory box.\
+5. Click Connect - this moves over to the Session box as a participant.\
+6. This IP address should be automatically picked up, in Midi Notes Lite in the third line of the UITableView.\
+\
+7. When the above are complete you will need to generate MIDI notes. I recommend a simple software keyboard MdidKeys from http://www.manyetas.com/creed/midikeys  \
+\
+8. This will generate MIDI notes on the session which the simulator will pick up.\
+9. Touching a UIViewCell with a midi note will send this note out.\
+================================================================================
+\f0\fs26 \cf0  \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\ql\qnatural\pardirnatural
+\cf0 \
+\pard\pardeftab720\sl260\ql\qnatural
+
+\f2\fs24 \cf3 iPhone, iPad or iPod Touch on OSX\
+\
+1. Complete top 3 Items in Apple MAC notes above.\
+2. Run xcode project on iPhone/iPad/iPod Touch\
+3. Connect the new device in OSX MIDI setup box\
+4. See step 6 and above to test.\
+
+\f0\fs28 \cf0 \
+\
+
+\f2\fs24 \cf3 ================================================================================
+\f0\fs28 \cf0 \
+
+\f2\fs24 \cf3 \
+iPhone, iPad or iPod Touch and Microsoft Windows and a Midi Keyboard\
+\
+1. Plug Midi keyboard into Microsoft windows (USB)\
+2. You will need an equivalent to OSX MIDI setup - I use Tobias Erichsen's rptMIDI - http://www.tobias-erichsen.de/rtpMIDI.html. you can also use his virtual keyboard for testing - http://www.tobias-erichsen.de/virtualKeys.html \
+3. All devices should be seen in the Directory box in rptMIDI - just as in OSX's MIDI Setup.\
+4. The MIDI keyboard key presses will be picked up in Midi Notes Lite.\
+
+\f0\fs28 \cf0 \
+
+\f2\fs24 \cf3 ================================================================================\
+\
+Code:\
+\
+To use midi receive/send indoor programs use the class midi.m/midi.h that has all the coreMidi routines and many helper conversion routines.
+\f0\fs28 \cf0 \
+\
+\
+Releases:\
+V1.0 May 17, 2011}

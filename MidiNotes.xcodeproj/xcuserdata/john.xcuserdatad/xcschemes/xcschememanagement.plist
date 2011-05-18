@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MidiNotes.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>MidiNotesOcTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MidiNotesTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>52C6BDC81382D2A5007C6AC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52C6BDEC1382D2A5007C6AC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52C6BE531383BA71007C6AC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52C6BE6A1383C107007C6AC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52C6BE811383C3EC007C6AC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
