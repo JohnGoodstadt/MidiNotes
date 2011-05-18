@@ -3,7 +3,7 @@
 //  MidiNotes
 //
 //  Created by john goodstadt on 17/05/2011.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 John Goodstadt. All rights reserved.
 //
 
 #import "MidiNotesAppDelegate.h"
