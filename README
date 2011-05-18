@@ -10,6 +10,9 @@ iOS 4.2 or later - requires coreMidi framework
 
 This sample application demonstrates how to receive and send midi messages to/from the coreMidi framework included in IOS from 4.2. Interface is a UITableView to log all notes captured. Click on UITableCell to send the note out.
 
+Use this file in your own projects as you see fit.
+Please email me at john@goodstadt.me.uk for any problems, fixes, addition or thanks.
+
 ================================================================================
 Instructions:
 
